@@ -34,10 +34,16 @@ export default function App() {
     setcityNameTemp({Cityname:''})
 
   }
+  const API_Key = '27b6acd8bb657adac00363aea266a340';
+
 
   function Display()
   {
     console.log(Cityarr)
+
+    // let Initialreq = await fetch('https://api.openweathermap.org/data/2.5/weather?q='+city+'&appid=' +API_Key);
+    // let Finalreq = await Initialreq.json();
+
   }
 
   return (
